@@ -1,47 +1,49 @@
-# MERN E-COMMERCE TUTORIAL
+MERN-E-Commerce-Frontend
+MERN-E-Commerce-Frontend is the frontend of an e-commerce web application built with ReactJS ,Material UI, ContextAPI, React-router-dom
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Live Link
+You can access the live application at https://e-shopit.vercel.app/.
 
-# Prerequisite
+Features
+User authentication and authorization(JWT)
+Admin dashboard for managing products, orders, users and to show statistics
+Payemnt Gateway
+Mail Service
+Forgot Password & Reset Password
+Product listing and search
+Product details and reviews
+Cart management
+Order history
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
 
-# Install Dependencies
+Tech Stack
+MongoDB
+ReactJS
+NodeJS
+ExpressJS
+Images
+Dashboard Dashboard Dashboard Orders Users HomePage Products Product Payment Cart UserProfile
 
-**For Backend** - `npm i`
+Backend
+The backend of the application is built with NodeJS and ExpressJS and uses a MongoDB database to store the product and user data. The source code for the backend can be found at https://github.com/Saurabh-8585/MERN-E-Commerce-Backend.
 
-**For Frontend** - `cd frontend` ` npm i`
+Installation and Usage
+To run the application on your local machine, follow these steps:
 
-## Env Variables
+Clone the repository:
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+git clone https://github.com/Saurabh-8585/MERN-E-Commerce-Frontend.git
+Install the dependencies:
 
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
+cd MERN-E-Commerce-Frontend
+npm install
+Start the development server:
 
-## Author
+npm start
+Open http://localhost:3000 in your web browser.
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+Contributing
+Contributions to the project are welcome. If you find a bug or want to add a new feature, please create a new issue or pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
